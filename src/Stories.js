@@ -16,8 +16,8 @@ const Stories = () => {
           <article key={objectID} className='story'>
             <h4 className='title'>{title}</h4>
             <p className='info'>
-              {points} points by <span>{author} | </span> {num_comments}{' '}
-              comments
+              {points} pontos por <span>{author} | </span> {num_comments}{' '}
+              comentários
             </p>
             <div>
               <a
@@ -26,13 +26,13 @@ const Stories = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                read more
+               Saiba mas
               </a>
               <button
                 className='remove-btn'
                 onClick={() => removeStory(objectID)}
               >
-                remove
+                Apagar
               </button>
             </div>
           </article>
